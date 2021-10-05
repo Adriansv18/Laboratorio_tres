@@ -1,0 +1,118 @@
+
+
+
+
+
+#contenido{
+    
+    position: absolute;
+    top: 1px;
+    left: 500px;
+    
+    width: 400px;
+    height: 400px;
+   
+    
+border-radius: 0px 97px 0px 93px;
+-moz-border-radius: 0px 97px 0px 93px;
+-webkit-border-radius: 0px 97px 0px 93px;
+border: 7px solid #000000;
+}
+
+
+*{/*Con esto quito espacion*/
+    padding: 0px;
+    margin: 0;
+    
+}
+
+
+#caja1{ 
+   
+width: 80px;
+height: 70px;
+position: absolute;
+left: 85px;
+top:315px;
+border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+border: 10px solid #000000;
+background-color: #5FB404
+
+}
+    
+  
+#caja2{
+       
+width: 80px;
+height: 100px;
+position: absolute;
+left: 275px;
+top:280px;
+border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+border: 10px solid #000000;    
+background-color: #FF4000
+    
+ 
+    
+}
+
+
+
+#caja3{
+width: 80px;
+height: 150px;
+position: absolute;
+left: 180px;
+top:230px;
+border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+border: 10px solid #000000; 
+background-color: #A5DF00
+    
+}
+    
+
+#persona{
+
+    height:120px; 
+    width: 120px;
+    position: absolute;
+    top: 115px;
+    left:156px;
+   background-image:url(https://cdn4.iconfinder.com/data/icons/stick-figures-in-motion/100/stickfigure_18-128.png)
+
+}
+
+
+
+#copa{
+    
+    height:110px; 
+    width: 120px;
+    position: absolute;
+    top: -30px;
+    left:156px;
+    animation-name: miimitacion;
+    animation-duration: 1s;
+    position: relative;
+   background-image:url(https://cdn4.iconfinder.com/data/icons/education-759/2050/Education_flat-14-128.png)
+  
+}
+
+@Keyframes miimitacion{
+ 
+    
+  0%{ left:0; top:-250px;}   
+  50%{left:500; top:-50px;}  
+  100%{background:#red; }
+  150%{background:#black;}
+  200%{background:#blue;} 
+}
+  
+    
+  
